@@ -1,0 +1,102 @@
+header{
+	background-color: blue ;
+	padding: 20px;
+	border-radius: 10px;
+	text-shadow: 2px 3px 3px red;
+}
+
+.nav-links{
+	list-style-type: none;
+	display: inline-flex;
+	gap: 240px;
+}
+
+.nav-links li a{
+	color: white ;
+	text-decoration: none;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.nav-links li a:hover{
+	color: lightcoral;
+	transition: 3s;
+}
+
+h1{
+	text-align: center;
+	text-decoration: overline underline;
+	text-decoration: !important;
+	text-transform: uppercase;
+	text-transform: capatilize;
+	text-shadow: 1px 2px 3px greenyellow;
+	color: darkcyan;
+	font-style: italic;
+}
+
+h2{
+	text-align: center;
+	text-decoration: underline;
+	text-transform: capatilize;
+	text-shadow: 1px 2px 1px lightseagreen;
+	color: darkcyan;
+}
+
+.apple{
+	text-decoration: underline;
+	color: indianred;
+	font-size: 30px;
+}
+
+body{
+	background-color: lightcyan ;
+}
+
+p{
+	text-align: justify;
+	line-height: 1.5;
+
+	font-size: 20px;
+	font-weight: normal;
+	font-weight: 600;
+}
+
+h4{
+	text-decoration: underline;;
+	color: darkblack;
+	font-size: 25px;
+}
+
+.points{
+	font-size: 20px;
+}
+
+p1{
+	text-align: center;
+	text-decoration: !important;
+}
+
+.final{
+	text-decoration: !important;
+	text-align: center;
+	font-size: 30px;
+	font-style: italic;
+	color: darkblue;
+}
+
+.nav-links li {
+	padding: 10px;
+}
+
+.menu{
+	position: absolute;
+	list-style-type: none;
+	padding: 10px;
+	display: none;
+}
+
+.dropdown:hover .menu{
+	display: block;
+	background-color: chocolate;
+}
