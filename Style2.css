@@ -2,7 +2,7 @@ header{
 	background-color: blue ;
 	padding: 20px;
 	border-radius: 10px;
-	text-shadow: 2px 3px 3px red;
+	text-shadow: 2px 3px 3px black;
 }
 
 .nav-links{
@@ -49,13 +49,13 @@ h2{
 	font-size: 30px;
 }
 
-@media (min-width:900px) and (max-width: 7050px){
+@media (min-width:1000px) and (max-width: 2050px){
 	body{
 	background-color: lightyellow;
 }
 }
 
-@media (min-width:600px) and (max-width: 900px){
+@media (min-width:600px) and (max-width: 999px){
 	body{
 	background-color: lightcoral;
 }
@@ -123,11 +123,19 @@ label[class="note"]{
 	padding: 10px;
 }
 
-.menu{
-	position: absolute;
-	list-style-type: none;
-	padding: 10px;
-	display: none;
+#menu .active{
+	text-decoration: overline underline;
+	text-transform: uppercase;
+	background-color: white;
+	color: red;
+	text-shadow: 2px 3px 3px skyblue;
+}
+
+#menu{
+	display: inline-flex;
+	gap: 250px;
+	padding-top: 10px;
+	padding-left: 50px;
 }
 
 .dropdown:hover .menu{
@@ -136,7 +144,63 @@ label[class="note"]{
 }
 
 h4{
-	text-transform: capatilize;
-	color: darkblack;
+	text-decoration: underline;
+	color: darkcyan;
 	font-size: 25px;
+	text-align: center;
+}
+
+footer{	
+	text-align: center;
+	background-color: lightsteelblue ;
+	padding: 20px;
+	background-image:url('binayakmartinsidefooter.jpg') ;
+	border-radius: 10px;
+}
+
+footer a:hover{
+	color: red;
+	transition: 2s;
+}
+
+#up,#down{
+	background-color: green;
+	box-sizing: 100px;
+	border-radius: 5px;
+	border: dotted red;
+	color: white;
+	font-style: bold;
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+#up:hover,#down:hover{
+	color: yellow;
+	transition: 2s;
+}
+
+footer h1{
+	color: red;
+	text-shadow: 2px 3px 3px black;
+	text-decoration: overline underline;
+	font-style: italic;
+}
+
+footer h2{
+	color: yellow;
+	text-shadow: 1px 2px 1px black;
+	text-decoration: underline;
+	font-family: Arial sans-serif;
+}
+
+footer h3{
+	color: lightgreen;
+	text-decoration: underline;
+}
+
+footer h4{
+	color: greenyellow;
+	text-decoration: underline;
 }
